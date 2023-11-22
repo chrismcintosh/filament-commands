@@ -4,9 +4,9 @@
 namespace io3x1\FilamentCommands;
 
 use io3x1\FilamentCommands\Pages\Artisan;
-use Filament\PackageServiceProvider;
 use Illuminate\Filesystem\Filesystem;
 use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class FilamentCommandsProvider extends PackageServiceProvider
 {
